@@ -1,6 +1,6 @@
 # ADR-Manager ![General cypress report](https://github.com/adr/adr-manager/workflows/General%20cypress%20report/badge.svg?branch=cypress-integration) [![GitHub license](https://img.shields.io/github/license/adr/adr-manager)](https://github.com/adr/adr-manager/blob/main/LICENSE) [![GitHub last commit](https://img.shields.io/github/last-commit/adr/adr-manager)](https://github.com/adr/adr-manager/commits/main) [![GitHub issues](https://img.shields.io/github/issues/adr/adr-manager)](https://github.com/adr/adr-manager/issues) [![GitHub stars](https://img.shields.io/github/stars/adr/adr-manager)](https://github.com/adr/adr-manager/stargazers)
 
-> A web-based application for the efficient creation and management of [architectural decision records (ADRs)](https://adr.github.io) in Markdown (MADR)
+> A fork of Adr-manager that is customized to work based on Github as the host of the  web-based application for the efficient creation and management of [architectural decision records (ADRs)](https://adr.github.io) in Markdown (MADR)
 
 ## Description
 
@@ -10,12 +10,12 @@ Each decision is stored in a separate file.
 The ADR Manager currently only supports the management of MADRs stored in the folder `docs/adr` in GitHub repositories.
 
 ## Quick Start
-
-You can find the tool at https://adr.github.io/adr-manager.
+If you merge this repo and follow the configuration steps below, the tool will be available as a Github page on
+on the URL that you specify.. .in this example http://github.com/hlyl/adr-git-manager.
 
 ## Supported Browsers
 
-Currently, the tool has been successfully tested in Chrome, Firefox, and Opera.
+Currently, the tool has been successfully tested in EDGE, Chrome and Firefox.
 
 ### Usage
 
@@ -110,12 +110,9 @@ If you do not want to use this instance, you can easily set up your own by follo
 
 1. Create an OAuth application on GitHub (see [here](https://docs.github.com/en/github-ae@latest/developers/apps/creating-an-oauth-app)).
    - Copy the Client ID and Client Secret of the app (you'll need them later).
-2. Create a Github app on Firebase and in its configurations, set the Client ID and Client Secret as copied from the above Github app
-
-- Set the callback URL in Github Oauth app configuration to the one provided by Firebase.
+2. .........
 
 ## Project Context
-
 This project was started as an undergraduate research project at the Institute of Software Engineering of the University of Stuttgart, Germany.
 It was also submitted to the [ICSE Score Contest 2021](https://conf.researchr.org/home/icse-2021/score-2021).
 Since then, it has been given over to the [ADR organization on GitHub](https://github.com/adr), where it is maintained and extended.
