@@ -1,4 +1,4 @@
-{
+                                           {
     "name": "adr-manager",
     "version": "2.0.0",
     "type": "module",
@@ -9,12 +9,12 @@
         "serve": "vite preview",
         "test": "jest",
         "e2e:test": "cypress run",
-        "e2e:test-ci": "cypress run --browser chrome --headless --config video=false,screenshotOnRunFailure=false",
+        "e2e:test-ci": "cypress run --browser chrome --headed --config video=false,screenshotOnRunFailure=false --spec cypress/e2e/adrManagerTest/ChooseSourceControl.cy.js",
         "format": "prettier --write . --ignore-unknown"
     },
     "dependencies": {
         "@mdi/font": "^7.2.96",
-        "antlr4": "^4.13.0",
+        "antlr4": "^4.13.1-patch-1",
         "axios": "^1.4.0",
         "core-js": "^3.31.1",
         "firebase": "^10.7.0",
