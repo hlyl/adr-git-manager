@@ -13,7 +13,7 @@
         "format": "prettier --write . --ignore-unknown"
     },
     "dependencies": {
-        "@azure/msal-browser": "^3.13.0",
+        "@azure/msal-browser": "^3.14.0",
         "@mdi/font": "^7.2.96",
         "antlr4": "^4.13.1-patch-1",
         "axios": "^1.4.0",
